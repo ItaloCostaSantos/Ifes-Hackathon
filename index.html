@@ -16,6 +16,14 @@
 
   <!-- Importando Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- Importando Google Fonts e as Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonte Monospace -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <!-- Fonte Neon p/ Títulos -->
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,20 +57,39 @@
     </div>
   </nav>
 
-  <!-- Seção de Conexões -->
-  <div class="container-fluid py-5" id="linkSection">
-    <div class="row d-flex justify-content-center g-3">
-      <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
-        <a href="#">Sobre<i class="bi bi-info-circle"></i></i></a>
+  <!-- Container Principal -->
+  <div class="container-fluid">
+    <!-- Seção de Conexões -->
+    <div class="py-5" id="linkSection">
+      <div class="row d-flex justify-content-center g-3">
+        <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
+          <a href="#">Sobre<i class="bi bi-info-circle"></i></i></a>
+        </div>
+        <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
+          <a href="#">Notícias<i class="bi bi-newspaper"></i></a>
+        </div>
+        <div class="col-10 col-sm-5 col-lg-3 text-center btn-custom mx-3">
+          <a href="#">Calendário<i class="bi bi-calendar-event"></i></a>
+        </div>
       </div>
-      <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
-        <a href="#">Notícias<i class="bi bi-newspaper"></i></a>
-      </div>
-      <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
-        <a href="#">Calendário<i class="bi bi-calendar-event"></i></a>
+    </div>
+    <!-- Seção de Notícias -->
+    <div class="py-5" id="newsSection">
+      <h5 class="display-5 mb-3">Notícias</h5>
+      <div class="row d-flex justify-content-center g-3">
+        <div class="col-12 col-lg-4" id="news">
+          <!-- Inserir Preview de Notícia -->
+        </div>
+        <div class="col-12 col-lg-4" id="news">
+          <!-- Inserir Preview de Notícia -->
+        </div>
+        <div class="col-12 col-lg-4" id="news">
+          <!-- Inserir Preview de Notícia -->
+        </div>
       </div>
     </div>
   </div>
+
 
   <!-- Fazer o conteúdo do Sobre, Notícias e Calendário:
   A ideia que tive foi ter esses 3 nesse mesmo index.html conectado com a seção de conexões acima, ou seja, quando o "sobre" é clicado, ele leva até o ponto da página referenciado como "sobre". -->
