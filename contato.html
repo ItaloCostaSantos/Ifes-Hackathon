@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Reprograme-se</title>
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Importando Bootstrap5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+    defer></script>
+
+  <!-- Importando Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- Importando Google Fonts e as Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonte Monospace -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <!-- Fonte Neon p/ Títulos -->
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <!-- Fonte Montserrat p/ Textos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Barra de Navegação:
+       Fazer a página de FAQ e Contato. Pensei em criar esses dois fora dessa página, fazendo um arquivo pra cada. -->
+  <nav class="navbar navbar-custom navbar-expand-lg sticky-top">
+    <div class="container-fluid px-2">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img src="./assets/img/logo-reprogramese/preferencial-horizontal.png" alt="Logo Reprograme-se" id="logo_top">
+      </a>
+      <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNavbar">
+        <div class="navbar-nav ms-auto d-flex align-items-center">
+          <p class="ms-auto">
+            <a href="index.html" class="nav-link" id="navbar_links">Início<i class="bi bi-house-door"></i></a>
+          </p>
+          <p class="ms-auto">
+            <a href="#" class="nav-link" id="navbar_links">FAQ<i class="bi bi-patch-question"></i></a>
+          </p>
+          <p class="ms-auto">
+            <a href="#" class="nav-link" id="navbar_links">Contato<i class="bi bi-telephone"></i></a>
+          </p>
+          <p class="ms-auto">
+            <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
+              target="__blank"><button class="btn-nav fw-bold">Inscreva-se!</button></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Container Principal -->
+  <div class="container-fluid">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb fs-5 py-3">
+      <li class="breadcrumb-item">
+        <a href="index.html" class="fw-light">Início</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="contato.html" class="fw-bold">Contato</a>
+      </li>
+    </nav>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h6 class="display-5 text-center fs-3">Entre em contato com a nossa equipe!</h6>
+        <img src="./assets/img/mockups/Jovens.png" alt="Contato.img" class="img-fluid w-100">
+      </div>
+      <div class="col-12 col-lg-5 ms-auto">
+        <form action="mailto:contato@reprograme-se.org.br" method="get">
+          <div class="row my-3">
+            <div class="col-10 col-lg-12">
+              <h5>Nome *</h5>
+              <div class="input-group">
+                <label for="nome" class="input-group-text"><i class="bi bi-person-circle"></i></label>
+                <input type="text" id="nome" class="form-control" placeholder="Insira seu nome" required>
+                <div class="invalid-feedback">
+                  Informe o nome corretamente.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-10 col-lg-12">
+              <h5>E-mail *</h5>
+              <div class="input-group">
+                <label for="mail" class="input-group-text"><i class="bi bi-envelope-fill"></i></label>
+                <input type="email" id="mail" class="form-control" placeholder="usuario@email.com" required>
+                <div class="invalid-feedback">
+                  Informe o e-mail corretamente.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-10 col-lg-12">
+              <h5>Telefone *</h5>
+              <div class="input-group">
+                <label for="nome" class="input-group-text"><i class="bi bi-telephone-fill"></i></label>
+                <input type="text" id="nome" class="form-control" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}"
+                  placeholder="(XX) XXXXX-XXXX" required>
+                <div class="invalid-feedback">
+                  Informe o telefone como
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-10 col-lg-12">
+              <h5>Motivo *</h5>
+              <select class="form-select" id="selecao">
+                <option value="" selected disabled>Selecione uma opção...</option>
+                <option value="Duvida">Dúvida</option>
+                <option value="Sugestao">Sugestão</option>
+                <option value="Reclamacao">Reclamação</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

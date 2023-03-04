@@ -81,6 +81,8 @@ background: linear-gradient(145deg, rgba(91,127,185,1) 0%, rgba(119,156,214,1) 1
 
 #linkSection .btn-custom:hover{
   cursor: pointer;
+  background: rgb(194,127,177);
+  background: linear-gradient(145deg, rgba(194,127,177,1) 0%, rgba(224,145,204,1) 100%);
   transform: scale(1.05);
 }
 
@@ -110,4 +112,14 @@ background: linear-gradient(145deg, rgba(91,127,185,1) 0%, rgba(119,156,214,1) 1
 
 #newsSection a{
   color: black;
+}
+
+.breadcrumb a {
+  font-family: 'Tilt Neon', cursive;
+  text-decoration: none;
+  color: #242323;
+}
+
+.breadcrumb-item::before {
+  color: #242323 !important;
 }
