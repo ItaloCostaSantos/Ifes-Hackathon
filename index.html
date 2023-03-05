@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -38,7 +38,7 @@
        Fazer a página de FAQ e Contato. Pensei em criar esses dois fora dessa página, fazendo um arquivo pra cada. -->
   <nav class="navbar navbar-custom navbar-expand-lg sticky-top">
     <div class="container-fluid px-2">
-      <a href="#" class="navbar-brand d-flex align-items-center">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
         <img src="./assets/img/logo-reprogramese/preferencial-horizontal.png" alt="Logo Reprograme-se" id="logo_top">
       </a>
       <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
@@ -69,117 +69,207 @@
     <!-- Seção de Conexões -->
     <div class="py-5" id="linkSection">
       <div class="row d-flex justify-content-center g-3">
-        <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
-          <a href="#">Sobre<i class="bi bi-info-circle"></i></i></a>
-        </div>
-        <div class="col-10 col-sm-4 col-lg-3 text-center btn-custom mx-3">
+        <div class="col-12 col-sm-5 col-lg-2 text-center btn-custom mx-3">
           <a href="#newsSection">Notícias<i class="bi bi-newspaper"></i></a>
         </div>
-        <div class="col-10 col-sm-5 col-lg-3 text-center btn-custom mx-3">
-          <a href="#">Calendário<i class="bi bi-calendar-event"></i></a>
+        <div class="col-12 col-sm-5 col-lg-2 text-center btn-custom mx-3">
+          <a href="#calendar">Calendário<i class="bi bi-calendar-event"></i></a>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-2 text-center btn-custom mx-3">
+          <a href="#sobre">Sobre<i class="bi bi-info-circle"></i></i></a>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-2 text-center btn-custom mx-3">
+          <a href="#sobre">Depoimentos<i class="bi bi-megaphone"></i></i></a>
         </div>
       </div>
     </div>
-
-    <!-- Seção de Sobre -->
 
     <!-- Seção de Notícias -->
     <div class="py-5" id="newsSection">
       <h4 class="display-4" style="font-family: 'Tilt Neon', cursive;">Notícias</h4>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
         <div class="col">
-          <a href="#">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-12">
-                  <img src="https://picsum.photos/1280?random=1" alt="Notícia 1" class="img-fluid rounded-start w-100">
-                </div>
-                <div class="col-12">
-                  <div class="card-body">
-                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
-                    <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
-                    <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      alias,
-                      adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
-                  </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="https://picsum.photos/1280?random=1" alt="Notícia 1" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                  <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
+                  <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    alias,
+                    adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="col">
-          <a href="#">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-12">
-                  <img src="https://picsum.photos/1280?random=2" alt="Notícia 2" class="img-fluid rounded-start w-100">
-                </div>
-                <div class="col-12">
-                  <div class="card-body">
-                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
-                    <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
-                    <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      alias,
-                      adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
-                  </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="https://picsum.photos/1280?random=2" alt="Notícia 2" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                  <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
+                  <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    alias,
+                    adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="col">
-          <a href="#">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-12">
-                  <img src="https://picsum.photos/1280?random=3" alt="Notícia 3" class="img-fluid rounded-start w-100">
-                </div>
-                <div class="col-12">
-                  <div class="card-body">
-                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
-                    <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
-                    <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      alias,
-                      adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
-                  </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="https://picsum.photos/1280?random=3" alt="Notícia 3" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                  <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
+                  <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    alias,
+                    adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="col">
-          <a href="#">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-12">
-                  <img src="https://picsum.photos/1280?random=4" alt="Notícia 4" class="img-fluid rounded-start w-100">
-                </div>
-                <div class="col-12">
-                  <div class="card-body">
-                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
-                    <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
-                    <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      alias,
-                      adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
-                  </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="https://picsum.photos/1280?random=4" alt="Notícia 4" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                  <h6 class="card-subtitle">Publicado em 03/03/2023 as 18h22</h6>
+                  <p class="card-text text-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    alias,
+                    adipisci odio laudantium minus debitis pariatur dolorem accusamus voluptatem ullam!</p>
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Seção do Calendário -->
-
+    <div class="py-5" id="calendar">
+      <h4 class="display-4" style="font-family: 'Tilt Neon', cursive;">Calendário</h4>
+      <div class="embed-responsive embed-responsive-21by9">
+        <div style="width: 100%;">
+          <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe
+              title="SPECIAL DATES" frameborder="0" width="1200" height="675"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              src="https://view.genial.ly/6404c72e59e17800143be486" type="text/html" allowscriptaccess="always"
+              allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div>
+        </div>
+      </div>
+    </div>
+    <!-- Seção de Sobre -->
+    <div class="py-5" id="sobre">
+      <h4 class="display-4" style="font-family: 'Tilt Neon', cursive;">Sobre o curso</h4>
+      <p id="sobreCurso">
+      <h5>Cursos de programação web na modalidade à distância</h5>
+      <h6>Modalidade de oferta</h6>
+      <p id="sobreCurso">Os cursos serão desenvolvidos pelo Ifes campus Cachoeiro de Itapemirim utilizando-se de
+        Ambientes Virtuais de Aprendizagem e o aluno contará com orientações de profissionais
+        capacitados como professores formadores, professores mediadores e o apoio de monitores.</p>
+      <p id="sobreCurso">Os estudos ocorrerão de forma online e, ainda, o aluno contará com o apoio e orientação de
+        forma presencial no polo de apoio presencial de seu município.</p>
+      <h6>Duração:</h6>
+      <p id="sobreCurso">O reprograme-se terá a duração de 8 meses, sendo 4 meses para o curso Programação básica
+        de aplicativos Web - Front-end e 4 meses para o curso Programação com JavaScript e o
+        Framework Node.js - Back-end. Com início em setembro de 2022 e término previsto para
+        maio de 2023.</p>
+      <h6>Carga horária prevista para estudos semanais:</h6>
+      <p id="sobreCurso">O estudante deverá disponibilizar pelo menos 10h (dez horas) por semana.</p>
+      </p>
+    </div>
+    <!-- Seção de Depoimentos -->
+    <div class="py-5" id="depoimentos">
+      <h4 class="display-4" style="font-family: 'Tilt Neon', cursive;">Depoimentos</h4>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="./assets/img/pessoas/pessoa-masc-1.jpg" alt="Notícia 1" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Lucas Soares</h4>
+                  <p class="card-text text-start mt-2">Gostei muito do curso, vai me ajudar bastante na vida
+                    profissional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="./assets/img/pessoas/pessoa-fem-1.jpg" alt="Notícia 2" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Ana Fonseca</h4>
+                  <p class="card-text text-start mt-2">Fiquei muito satisfeita com o curso, pois me ajudou muito na área
+                    em que estou trabalhando e enriqueceu meus conhecimentos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="./assets/img/pessoas/pessoa-masc-2.jpg" alt="Notícia 3" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Daniel Silvares</h4>
+                  <p class="card-text text-start mt-2">Curso didático, direto e prático. Contribuiu bastante para o meu
+                    crescimento profissional</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-12">
+                <img src="./assets/img/pessoas/pessoa-fem-2.jpg" alt="Notícia 4" class="img-fluid rounded w-100">
+              </div>
+              <div class="col-12">
+                <div class="card-body">
+                  <h4 class="card-title">Luisa Alvarenga</h4>
+                  <p class="card-text text-start mt-2">Gostei do curso, O instrutor com o conhecimento do assunto e com
+                    dinamismo apresentado tornou o curso bem mais agradável.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-  <!-- Fazer o conteúdo do Sobre, Notícias e Calendário:
-  A ideia que tive foi ter esses 3 nesse mesmo index.html conectado com a seção de conexões acima, ou seja, quando o "sobre" é clicado, ele leva até o ponto da página referenciado como "sobre". -->
-
   <!-- Rodapé -->
-  <footer class="mt-5 p-3">
+  <footer class="mt-5 p-3" id="footer1">
     <div class="container">
       <h6 class="display-5 text-center py-2 fs-3">Realização</h6>
       <div class="row d-flex justify-content-sm-evenly g-3">

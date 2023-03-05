@@ -98,22 +98,26 @@ background: linear-gradient(145deg, rgba(91,127,185,1) 0%, rgba(119,156,214,1) 1
   color: white;
 }
 
-#newsSection img{
+#newsSection #depoimentos img{
   border-radius: 8px;
 }
 
-#newsSection #news{
+#newsSection #news #depoimentos{
   display: flex;
   justify-content: space-evenly;
 }
 
-#newsSection h5,
-#newsSection h6{
+#newsSection #depoimentos h5,
+#newsSection #depoimentos h6{
   font-family: 'Montserrat', sans-serif;
 }
 
-#newsSection a{
+#newsSection #depoimentos a{
   color: black;
+}
+
+#sobreCurso{
+  text-align: justify;
 }
 
 .breadcrumb a {
@@ -126,7 +130,7 @@ background: linear-gradient(145deg, rgba(91,127,185,1) 0%, rgba(119,156,214,1) 1
   color: #242323 !important;
 }
 
-footer {
+#footer1 {
   margin: 0px 0px;
   width: 100% !important;
   color: white;
